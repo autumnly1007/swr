@@ -15,7 +15,7 @@ const useUser = (id) => {
   };
 };
 
-export const Page = () => {
+export const User = () => {
   return (
     <>
       <Profile id={1} />

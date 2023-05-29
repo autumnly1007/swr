@@ -1,12 +1,14 @@
 import './App.css';
 import Cache from './Cache';
-import { Page } from './User';
+import Fetcher from './Fetcher';
+import { User } from './User';
 
 function App() {
   return (
     <>
-      <Page />
+      <User />
       <Cache />
+      <Fetcher />
     </>
   );
 }
